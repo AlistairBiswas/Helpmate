@@ -1,2 +1,2 @@
 # Helpmate
- Android Application using Android Studio IDE and Kotlin programming language
+ Android Application using Android Studio IDE, Kotlin programming language and Firebase
