@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "924225801970",
+    "firebase_url": "https://helpmate-cf0b7-default-rtdb.firebaseio.com",
+    "project_id": "helpmate-cf0b7",
+    "storage_bucket": "helpmate-cf0b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924225801970:android:2f90a7cc0bd8a122ec4a6b",
+        "android_client_info": {
+          "package_name": "com.example.testdb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924225801970-boktuhgfqh60bgj5of3c54rt4idja15u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-U3TYCdm3HNTvkFZxIcoFNGaT8ozb4j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924225801970-boktuhgfqh60bgj5of3c54rt4idja15u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924225801970:android:fe51c9d45a74d682ec4a6b",
+        "android_client_info": {
+          "package_name": "com.prank.helpmate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924225801970-boktuhgfqh60bgj5of3c54rt4idja15u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-U3TYCdm3HNTvkFZxIcoFNGaT8ozb4j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924225801970-boktuhgfqh60bgj5of3c54rt4idja15u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

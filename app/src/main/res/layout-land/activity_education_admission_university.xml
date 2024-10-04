@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".education_admission_university">
+
+    <ImageView
+        android:id="@+id/healthimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/education_background_rotate" />
+
+    <TextView
+        android:id="@+id/healthtitle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/uniname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
+        android:text="University admission"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/healthtitle" />
+
+    <Button
+        android:id="@+id/buet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="BUET"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/healthimage"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <Button
+        android:id="@+id/medical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="MEDICAL"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buet"
+        app:layout_constraintStart_toEndOf="@+id/buet" />
+
+    <Button
+        android:id="@+id/du"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="DU"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/medical"
+        app:layout_constraintStart_toEndOf="@+id/medical" />
+
+    <Button
+        android:id="@+id/gst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="GST"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/du"
+        app:layout_constraintStart_toEndOf="@+id/du" />
+
+    <Button
+        android:id="@+id/ju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="JU"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/nsuu"
+        app:layout_constraintTop_toBottomOf="@+id/ckruet" />
+
+    <Button
+        android:id="@+id/butex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="BUTEX"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buet"
+        app:layout_constraintTop_toBottomOf="@+id/buet" />
+
+    <Button
+        android:id="@+id/nsuu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="NSU"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buet"
+        app:layout_constraintTop_toBottomOf="@+id/butex" />
+
+    <Button
+        android:id="@+id/ckruet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="CKRUET"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/butex"
+        app:layout_constraintStart_toEndOf="@+id/butex" />
+
+    <Button
+        android:id="@+id/agri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="AGRICULTURE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/ckruet"
+        app:layout_constraintStart_toEndOf="@+id/ckruet" />
+
+    <Button
+        android:id="@+id/aust"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="AUST"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/agri"
+        app:layout_constraintStart_toEndOf="@+id/agri" />
+
+    <Button
+        android:id="@+id/brac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#5BA8E6"
+        android:minWidth="150dip"
+        android:minHeight="80dip"
+        android:text="BRAC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/ju"
+        app:layout_constraintTop_toBottomOf="@+id/agri" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="641dp"
+        android:layout_height="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/healthtitle" />
+
+</android.support.constraint.ConstraintLayout>

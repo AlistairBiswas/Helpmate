@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".health">
+
+    <ImageView
+        android:id="@+id/healthimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/health_l" />
+
+    <TextView
+        android:id="@+id/healthtitle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#5BA8E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/uniname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="sans-serif"
+        android:text="HEALTH"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/healthtitle" />
+
+    <Button
+        android:id="@+id/uniad"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:text="ONLINE MEDICAL SHOP"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/appointment"
+        app:layout_constraintTop_toBottomOf="@+id/appointment" />
+
+    <Button
+        android:id="@+id/admission"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:text="VACCINE REGISTRATION"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/uniad"
+        app:layout_constraintTop_toBottomOf="@+id/uniad" />
+
+    <Button
+        android:id="@+id/appointment"
+        android:layout_width="411dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="52dp"
+        android:background="#5BA8E6"
+        android:text="ONLINE APPOINTMENT"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/healthimage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/healthtitle"
+        app:layout_constraintVertical_bias="0.679" />
+
+</android.support.constraint.ConstraintLayout>

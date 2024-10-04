@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".health_appointment">
+
+    <ImageView
+        android:id="@+id/healthimage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/health_l" />
+
+    <TextView
+        android:id="@+id/healthtitle"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:background="#5BA8E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/uniname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="sans-serif"
+        android:text="ONLINE APPOINTMENT"
+        android:textColor="#040404"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/healthtitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/healthtitle" />
+
+    <Button
+        android:id="@+id/butex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:minWidth="450dip"
+        android:text="IBN SINA"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/gst"
+        app:layout_constraintTop_toBottomOf="@+id/gst" />
+
+    <Button
+        android:id="@+id/ju"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:minWidth="450dip"
+        android:text="APOLLO"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buet"
+        app:layout_constraintTop_toBottomOf="@+id/buet" />
+
+    <Button
+        android:id="@+id/gst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:minWidth="450dip"
+        android:text="UNITED"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/du"
+        app:layout_constraintTop_toBottomOf="@+id/du" />
+
+    <Button
+        android:id="@+id/du"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:minWidth="450dip"
+        android:text="BARDEM"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/medical"
+        app:layout_constraintTop_toBottomOf="@+id/medical" />
+
+    <Button
+        android:id="@+id/medical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#5BA8E6"
+        android:minWidth="450dip"
+        android:text="LAB AID"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/ju"
+        app:layout_constraintTop_toBottomOf="@+id/ju" />
+
+    <Button
+        android:id="@+id/buet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5BA8E6"
+        android:minWidth="450dip"
+        android:text="SQUARE"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/healthimage"
+        app:layout_constraintVertical_bias="0.399" />
+
+</android.support.constraint.ConstraintLayout>
